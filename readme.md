@@ -98,11 +98,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 <h2 style="color:#4169E1;">7. License</h2>
 <p>
-  This project is licensed under the <strong>MIT License</strong>. See the <code>LICENSE</code> file for details.
+  This project is licensed under the <strong>MIT License</strong>.
 </p>
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;" />
 
+<h2 style="color:#4169E1;">7. License</h2>
+<p>
+  <strong>Note:</strong>This is a demo readme.md,it will change based on future project requirements.
+</p>
+
 <p style="text-align:center;">
-  <em>Version 1.0 &mdash; Created by Avilasha Goswami, Deep Habiswashi, Kaushiki Sarkar, and Soumyadeep Dutta on February 8, 2025</em>
+  <em>Version 1.0 &mdash; Created by Deep Habiswashi(2230167), Avilasha Goswami(2230162), Kaushiki Sarkar(2230177), and Soumyadeep Dutta(2230207)</em>
 </p>
