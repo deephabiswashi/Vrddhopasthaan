@@ -103,10 +103,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;" />
 
-<h2 style="color:#4169E1;">7. License</h2>
+<h2 style="color:#4169E1;">8. Note</h2>
 <p>
-  <strong>Note:</strong>This is a demo readme.md,it will change based on future project requirements.
+  This is a demo readme.md,it will change based on future project requirements.
 </p>
+
+<hr style="border: 1px solid #ccc; margin: 20px 0;" />
 
 <p style="text-align:center;">
   <em>Version 1.0 &mdash; Created by Deep Habiswashi(2230167), Avilasha Goswami(2230162), Kaushiki Sarkar(2230177), and Soumyadeep Dutta(2230207)</em>
