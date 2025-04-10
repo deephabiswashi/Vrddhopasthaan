@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="app.controllers.MedicationHistoryController" spacing="15" alignment="CENTER" styleClass="appointment-pane">
+    <Label text="Medication History & Health Records" styleClass="title-label"/>
+    <TableView fx:id="historyTable" prefHeight="400" prefWidth="600">
+        <columns>
+            <TableColumn fx:id="patientColumn" text="Patient"/>
+            <TableColumn fx:id="doctorColumn" text="Doctor"/>
+            <TableColumn fx:id="dateColumn" text="Date"/>
+        </columns>
+    </TableView>
+</VBox>

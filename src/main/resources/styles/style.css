@@ -1,0 +1,61 @@
+.root {
+    -fx-font-family: "Helvetica";
+    -fx-background-color: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    -fx-padding: 20;
+}
+
+.title-label {
+    -fx-font-size: 28px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 3, 0.5, 0, 2);
+}
+
+.vibrant-button {
+    -fx-background-color: #4facfe;
+    -fx-text-fill: #fff;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 30;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0.5, 0, 4);
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.vibrant-button:hover {
+    -fx-background-color: #00f2fe;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.appointment-pane {
+    -fx-background-color: rgba(255,255,255,0.85);
+    -fx-padding: 20;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 2);
+}
+
+.input-field {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+}
+
+.confirmation-label {
+    -fx-text-fill: #00b894;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.dashboard-title {
+    -fx-font-size: 32px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.dashboard-text {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+}

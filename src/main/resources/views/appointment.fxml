@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox spacing="15" alignment="CENTER" xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.AppointmentController" styleClass="appointment-pane">
+    <Label text="Book Appointment" styleClass="title-label"/>
+    <TextField fx:id="patientNameField" promptText="Enter Patient Name" styleClass="input-field"/>
+    <TextField fx:id="doctorNameField" promptText="Enter Doctor Name" styleClass="input-field"/>
+    <TextField fx:id="appointmentDateField" promptText="Appointment Date (yyyy-MM-dd HH:mm)" styleClass="input-field"/>
+    <Button text="Confirm Appointment" onAction="#bookAppointment" styleClass="vibrant-button"/>
+    <Label fx:id="confirmationLabel" styleClass="confirmation-label"/>
+</VBox>

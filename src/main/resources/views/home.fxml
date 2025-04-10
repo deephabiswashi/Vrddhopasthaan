@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<VBox spacing="20" alignment="CENTER" xmlns="http://javafx.com/javafx/21" 
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.HomeController" styleClass="root">
+    <ImageView fx:id="logoImage" fitWidth="150" fitHeight="150" preserveRatio="true">
+        <image>
+            <Image url="@/images/logo.png" />
+        </image>
+    </ImageView>
+    <Label text="Welcome to Vrddhopasthaan" styleClass="title-label"/>
+    <Button text="Register/Login" onAction="#openRegistrationWindow" styleClass="vibrant-button"/>
+    <Button text="Book Appointment" onAction="#openAppointmentWindow" styleClass="vibrant-button"/>
+    <Button text="Emergency SOS" onAction="#openEmergencySOSWindow" styleClass="vibrant-button"/>
+    <Button text="Health Records" onAction="#openHealthRecordsWindow" styleClass="vibrant-button"/>
+    <Button text="Custom Alerts" onAction="#openMedicationAlertWindow" styleClass="vibrant-button"/>
+    <Button text="Voice Command" onAction="#openVoiceCommandWindow" styleClass="vibrant-button"/>
+    <Button text="Caregiver Mode" onAction="#openCaregiverModeWindow" styleClass="vibrant-button"/>
+    <Button text="Medication History" onAction="#openMedicationHistoryWindow" styleClass="vibrant-button"/>
+    <Button text="Emergency Contacts" onAction="#openEmergencyContactsWindow" styleClass="vibrant-button"/>
+    <Button text="Settings" onAction="#openSettingsWindow" styleClass="vibrant-button"/>
+</VBox>

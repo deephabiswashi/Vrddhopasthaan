@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="app.controllers.MedicationAlertController" spacing="15" alignment="CENTER" styleClass="appointment-pane">
+    <Label text="Set Custom Medication Alert" styleClass="title-label"/>
+    <TextField fx:id="medicationField" promptText="Medication Name" styleClass="input-field"/>
+    <TextField fx:id="alertTimeField" promptText="Alert Time (e.g., 08:00)" styleClass="input-field"/>
+    <Button text="Set Alert" onAction="#setCustomAlert" styleClass="vibrant-button"/>
+    <Label fx:id="alertStatusLabel"/>
+</VBox>
