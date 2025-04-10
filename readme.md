@@ -158,6 +158,36 @@ mvn javafx:run
 
 ---
 
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![Home Page](screensots/homepage.png)
+
+### 📝 Registration
+![Registration](screensots/registration.png)
+
+### 🩺 Appointment Booking
+![Appointment Booking](screensots/appointmentbooking.png)
+
+### 🗣️ Voice Command Support
+![Voice Command](screensots/voicecommandsupport.png)
+
+### 🆘 Emergency SOS
+![Emergency SOS](screensots/emergencysos.png)
+
+### 👨‍⚕️ Caregiver Mode
+![Caregiver Mode](screensots/caregivermode.png)
+
+---
+
+## 🎥 Project Demo
+
+Watch the demo here:
+
+[![Watch on YouTube](https://img.youtube.com/vi/COsnRGEaZkY/0.jpg)](https://youtu.be/COsnRGEaZkY?si=oG0_VM_MltXqwYWR)
+
+---
+
 ## 👥 Authors
 
 | Name              | Role                 |
