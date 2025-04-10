@@ -1,0 +1,90 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse & IntelliJ
+*.iws
+*.iml
+*.ipr
+.idea/
+*.class
+*.project
+*.classpath
+*.settings/
+out/
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+# SceneBuilder FXML backups
+*~backup
+*~.fxml
+*.bak
+
+# JavaFX build artifacts
+build/
+bin/
+*.db-journal
+
+# SQLite database
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test outputs
+test-output/
+
+# Logs
+*.log
+
+# User-generated metadata
+*.swp
+*.swo
+*.tmp
+*.orig
+*.rej
+
+# Environment variables or credentials
+.env
+*.key
+*.pem
+*.crt
+
+# IDE build folders
+build/
+
+# JetBrains Rider
+.idea/
+
+# Java profiling
+hs_err_pid*
+
+# Temporary files
+*.tmp
+*.temp
